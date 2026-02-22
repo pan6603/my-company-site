@@ -1,12 +1,15 @@
-
+import HeroSection from "@/components/sections/Hero";
+import SocialProofBar from "@/components/sections/SocialProofBar";
+import FeaturesGrid from "@/components/sections/FeaturesGrid";
+import CTA from "@/components/sections/CTA";
 
 export default function Home() {
   return (
     <>
-      <div style={{ padding: "40px" }}>
-        <h1>My Company Site</h1>
-        <p>GlobalStyles 적용 테스트</p>
-      </div>
+      <HeroSection />
+      <SocialProofBar />
+      <FeaturesGrid />
+      <CTA />
     </>
   );
 }
