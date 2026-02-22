@@ -9,6 +9,7 @@ export default function SubFooter() {
                     <p className="text-[#64748B] text-sm">© 2024 SaaSFlow Inc. All rights reserved.</p>
                 </div>
 
+
                 <div className="w-full max-w-[198px] h-[20px flex items-center justify-between">
                     <Link href="/twiter" className="text-[#64748B]">Twiter</Link>
                     <Link href="/linkedin" className="text-[#64748B]">Linkedin</Link>
@@ -17,5 +18,5 @@ export default function SubFooter() {
             </div>
         </>
     )
-    
+
 }
