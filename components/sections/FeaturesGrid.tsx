@@ -99,8 +99,8 @@ export default function FeaturesGrid() {
 
             <div className="max-w-[1216px] mx-auto grid grid-cols-3 gap-8">
                 {FEATURES.map((feature, index) => (
-                <FeatureCard key={index} {...feature} />
-            ))}
+                  <FeatureCard key={index} {...feature} />
+                ))}
             </div>
         </div> 
 
