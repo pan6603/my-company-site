@@ -4,7 +4,7 @@ interface MainProps {
 
 export default function Main({ children }: MainProps) {
   return (
-    <main className="w-full max-w-[1440px] h-[2572px]">
+    <main className="w-full max-w-[1440px] h-[2572px] bg-[#F6F7F8]">
       {children}
     </main>
   )
