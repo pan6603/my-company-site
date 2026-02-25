@@ -9,7 +9,13 @@ export default function Home() {
       <HeroSection />
       <SocialProofBar />
       <FeaturesGrid />
-      <CTA />
+      <CTA 
+        title="Ready to transform your workflow?"
+        description="Join thousands of teams who trust SaaSFlow to power their business. Start your 14-day free trial today."
+        primaryText="Start Free Trial"
+        secondaryText="Contact Sales"
+      />
+      
     </>
   );
 }
