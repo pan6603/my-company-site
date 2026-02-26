@@ -48,7 +48,7 @@ export default function PlatformSection() {
                     <div className="w-full max-w-[373px] h-[20px] font-bold text-[#137FEC] text-sm">Integrations</div>
                     <h2 className="w-full max-w-[373px] h-[72px]  font-bold text-[#0F172A] text-3xl">Fits perfectly into your stack.</h2>
                     <div className="w-full max-w-[373px] h-[96px] text-base flex items-center">Connect your favorite tools and build a unified <br />ecosystem. Our open API and native connectors <br />make data sync effortless.</div>
-                    <button className="text-[#334155] font-bold text-base border border-[#E2E8F0] py-3 px-6 bg-[#FFFFFF] rounded-lg">Explore Marketplace</button>
+                    <button className="text-[#334155] font-bold text-base border border-[#E2E8F0] py-3 px-6 bg-[#FFFFFF] rounded-lg cursor-pointer">Explore Marketplace</button>
                 </div>
 
                 <div className="w-full max-w-[794px] h-[340] grid grid-cols-3 gap-6">

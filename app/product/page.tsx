@@ -1,3 +1,4 @@
+import ProductFeaturesSection from "@/components/sections/ProductFeaturesSection";
 import PlatformSection from "@/components/sections/PlatformSection";
 import HowItWorksSection from "@/components/sections/HowItWorksSection";
 import CTA from "@/components/sections/CTA";
@@ -8,6 +9,7 @@ export default function ProductPage() {
     return (
         <>
             <div className="w-full max-w-[1440px] h-[5291px] bg-gray-100">
+                <ProductFeaturesSection />
                 <PlatformSection />
                 <HowItWorksSection />
                 <CTA 
