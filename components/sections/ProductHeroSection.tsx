@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image"
 import detailedProductImage from "../../public/images/icons/detailed_product.svg"
 

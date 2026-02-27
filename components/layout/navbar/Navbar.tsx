@@ -1,3 +1,5 @@
+"use client";
+
 import Brand from "./Brand"
 import NavLinks from "./NavLinks"
 import NavActions from "./NavActions"
