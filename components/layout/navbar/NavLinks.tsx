@@ -20,7 +20,14 @@ export default function NavLinks() {
                         Product
                     </Link>
                     
-                <Link href="" className="w-max h-[20px] text-[#475569] text-sm font-medium">Solutions</Link>
+                <Link 
+                    href="/solutions" 
+                    className={`w-max h-[20px] text-sm font-medium ${isActive("/solutions")
+                    ? "text-blue-600"
+                    : "text-[#475569]"
+                    }`}>
+                        Solutions
+                    </Link>
                 <Link href="" className="w-max h-[20px] text-[#475569] text-sm font-medium">Pricing</Link>
                 <Link href="" className="w-max h-[20px] text-[#475569] text-sm font-medium">Resources</Link>
             </div>
