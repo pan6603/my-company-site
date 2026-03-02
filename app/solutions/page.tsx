@@ -1,11 +1,11 @@
-
+import SolutionsHereSection from "@/components/sections/SolutionsHereSection"
 
 
 
 export default function SolutionsPage() {
     return (
         <>
-            dfddd
+            <SolutionsHereSection />
         </>
     )
 }
