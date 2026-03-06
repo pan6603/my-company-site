@@ -1,6 +1,7 @@
 import SolutionsHereSection from "@/components/sections/SolutionsHereSection"
 import SolutionsIndustrySection from "@/components/sections/SolutionsIndustrySection"
 import SolutionsUseCaseSection from "@/components/sections/SolutionsUseCaseSection"
+import CustomerReviewSection from "@/components/sections/CustomerReviewSection"
 
 export default function SolutionsPage() {
     return (
@@ -9,6 +10,7 @@ export default function SolutionsPage() {
                 <SolutionsHereSection />
                 <SolutionsIndustrySection />
                 <SolutionsUseCaseSection />
+                <CustomerReviewSection />
             </div>
         </>
     )
