@@ -4,7 +4,7 @@ import Footer from "@/components/layout/footer/Footer"
 
 export default function SolutionsLayout({ children }: { children: React.ReactNode }) {
     return (
-        <div className="w-full max-w-[1440px] h-[5746px] bg-[#F6F7F8]">
+        <div className="w-full max-w-[1440px] h-[3553px] bg-[#F6F7F8]">
             <Navbar />
             {children}
             <Footer />
